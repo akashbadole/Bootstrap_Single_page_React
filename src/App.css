@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+/* Add here all your css styles (customizations) */
+.navbar-brand{
+    margin: 5px;
+    padding-bottom: 0;
+}
+.jobstab article{
+    min-height: 269px;
+}
+.footerrightres{
+        text-align: center;
+    width: 100%;
+}
+.footerrightrestop{
+    background-color: #efefef;
+}
+#js-header{
+    box-shadow: 1px 1px 100px #00000017;
+}
+.ad-meta {
+    background-color: #f6f6f6;
+    border-top: 1px solid #eeeeee;
+    min-height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    width: 100%;
+    padding-left: 25px;
+    display: table;
+    font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ad-meta {
+    position: inherit;
+    background-color: transparent;
+    border-top: none;
+    padding-left: 0;
+    min-height: inherit;
+    display: inline;
+}
+.ad-meta a, .ad-meta li {
+    font-size: 14px;
+    color: #a0a0a0;
+}
+.ad-info span a{
+    color: #323232 !important;
+}
+.ad-info span a:hover, a:hover {
+    color: #232323;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ad-meta a i {
+    text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ad-meta i, s.ad-meta a i {
+    font-size: 20px;
+    margin-right: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.ad-meta a,.ad-meta li {
+    font-size: 14px;
+    color: #a0a0a0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ad-meta li:first-child {
+    margin-left: 0;
+}
+.ad-meta li {
+    float: left;
+    margin-left: 20px;
+        list-style: none;
+}
+.job-ad-item .ad-info {
+    padding: 5px 25px;
+}
+.ad-info span {
+    color: #000;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+.ad-info span {
+    color: #a0a0a0;
+    font-size: 18px;
+    line-height: 12px;
+    margin-left: 23px;
+}
+.ad-meta ul
+{
+        padding: 10px 23px; 
+}
+.searchjobdiv{
+    background-color: #fff;
+        padding: 50px;
+}
+.serchboxbg{
+        background-color: #ececec;
+}
+.tp-bgimg{
+    background-attachment: fixed !important;
+}
+#js-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+}
+.icon-christmas-056:before {
+    content: "1";
+    font-size: 16px;
+    margin-left: 4px;
+    margin-top: -2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lestofdonatings{
+    margin: 0;
+    padding: 0;
+}
+.lestofdonatings li{
+    width: 48%;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+}
+.subscribeemail{
+    width: 100%;
+    padding: 8px;
+}
+.subscribeNow{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #149ad6;
+    border: none;
+    color: #fff;
+}
+.Whatwedoblaxk
+{
+        background-color: #000000a1;
+    padding: 20px 40px;
+}
+.align-center{
+    text-align: center;
 }
